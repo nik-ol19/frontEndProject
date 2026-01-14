@@ -5,27 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>State Website</title>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
 </head>
 <body>
 
     <header>
         <h1>Contact</h1>
-    </header>
-
-   
-
-    <main>
-        <section>
-            <p>
-                
-            </p>
-            <!--demographics-->
-        </section>
-
-        <aside>
-            <!-- city facts -->
-        </aside>
-
         <nav>
             <ul>
                 <li><a href="4. index.html">Home</a></li>
@@ -35,10 +20,44 @@
                 <li><a href="8. contact.html">Contact</a></li>
             </ul>
         </nav>
+    </header>
+
+   
+
+    <main>
+        <article>
+            <section>
+                <h2>Contact the Office</h2>
+                <p>Please complete the form below.</p>
+          
+                <form id="contactForm" action="#" method="post">
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName" required>
+          
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" required>
+          
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required>
+          
+                  <label for="confirmEmail">Confirm Email Address</label>
+                  <input type="email" id="confirmEmail" name="confirmEmail" required>
+          
+                  <label for="question">Your Question</label>
+                  <textarea id="question" name="question" rows="6" required></textarea>
+          
+                  <button type="submit">Submit</button>
+                </form>
+              </section>
+           
+        </article>
+        
+        <script src="js/form.js"></script>
     </main>
 
     <footer>
         <p>&copy; 2026 State Website</p>
+        <a href="https://www.explorelouisiana.com/?gad_source=1&gad_campaignid=21524205989&gbraid=0AAAAADlZhaWr60zzuYa0MpSAjH-7YNATY&gclid=Cj0KCQiA1JLLBhCDARIsAAVfy7jZ9BfhcE8S09PXuyCJNuxEmS-fMTpbcXimJou5tvZKeXdHKjgK-9YaAr9AEALw_wcB">Lets Explore The Bayou!</a>
     </footer>
 
 </body>
