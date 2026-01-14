@@ -27,22 +27,32 @@
     <main>
         <article>
             <section>
-            <!--demographics-->
-            </section>
-
-            <aside>
-            <!-- city facts -->
-            </aside>
-
-            <nav>
-                <ul>
-                    <li><a href="4. index.html">Home</a></li>
-                    <li><a href="3. capital.html">Baton Rouge</a></li>
-                    <li><a href="5. cityTwo.html">Natchitoches</a></li>
-                    <li><a href="6. cityThree.html">New Orleans</a></li>
-                </ul>
-            </nav>
+                <h2>Contact the Office</h2>
+                <p>Please complete the form below.</p>
+          
+                <form id="contactForm" action="#" method="post">
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName" required>
+          
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" required>
+          
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required>
+          
+                  <label for="confirmEmail">Confirm Email Address</label>
+                  <input type="email" id="confirmEmail" name="confirmEmail" required>
+          
+                  <label for="question">Your Question</label>
+                  <textarea id="question" name="question" rows="6" required></textarea>
+          
+                  <button type="submit">Submit</button>
+                </form>
+              </section>
+           
         </article>
+        
+        <script src="js/form.js"></script>
     </main>
 
     <footer>
